@@ -1,0 +1,163 @@
+.main {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding-bottom: 100px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.tableview {
+  width: fit-content;
+  height: 40px;
+}
+.label {
+  text-decoration: underline;
+  align-items: left;
+}
+
+input,
+select {
+  background-color: transparent;
+  border: 1px solid rgba(150, 160, 169, 0.638);
+  height: 20px;
+}
+
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.lane1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.lane2 {
+  display: flex;
+  justify-content: space-between;
+}
+#name {
+  width: 500px;
+}
+
+#dateOfBirth {
+  width: 400px;
+}
+
+#sex {
+  width: 180px;
+}
+
+#govtId {
+  width: 220px;
+  margin-right: 20px;
+}
+
+#govtIdInput {
+  width: 490px;
+}
+
+#guardianInput {
+  width: 260px;
+}
+
+#guardian {
+  margin-right: 20px;
+  width: 150px;
+}
+
+#email {
+  width: 300px;
+}
+#emContactNum {
+  width: 205px;
+}
+#address {
+  width: 488px;
+}
+
+#state,
+#city {
+  width: 347px;
+}
+
+#pincode {
+  width: 300px;
+}
+
+.inputlables {
+  margin-right: 15px;
+}
+
+.span1 {
+  width: 720px;
+}
+.span2 {
+  width: 1000px;
+  display: flex;
+
+  gap: 70px;
+}
+
+.lastlane1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+#nationality {
+  width: 250px;
+}
+#occupation {
+  width: 215px;
+}
+#religion {
+  width: 215px;
+}
+#maritalstatus {
+  width: 215px;
+}
+#bloodgroup {
+  width: 215px;
+}
+
+#mobile,
+#country {
+  width: 350px;
+}
+
+.cancel {
+  color: rgba(255, 4, 96, 0.848);
+  padding: 15px;
+  font-weight: bold;
+  border: 1px solid rgba(255, 4, 96, 0.848);
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.submit {
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(12, 188, 26, 0.871);
+  border: 1px solid rgba(6, 135, 60, 0.688);
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.buttons {
+  position: absolute;
+  display: flex;
+  right: 32px;
+  gap: 25px;
+}

@@ -1,0 +1,29 @@
+.topDiv {
+  position: relative;
+  width: 100%;
+}
+.formButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 40px;
+  width: 100px;
+  margin-bottom: 20px;
+  left: 1400px;
+}
+
+.tablemain {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+}
+
+thead {
+  background-color: rgba(0, 187, 78, 0.422);
+}
+
+td {
+  border-bottom: 1px solid rgba(38, 189, 36, 0.679);
+}
